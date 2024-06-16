@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons .icon {
+    color: #333;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons .icon:hover {
+    color: #0073b1; /* Cor do LinkedIn */
+}
+
+.social-icons .icon:hover .fa-github {
+    color: #333; /* Cor do GitHub */
+}
+
+.social-icons .icon:hover .fa-instagram {
+    color: #E4405F; /* Cor do Instagram */
+}
